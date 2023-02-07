@@ -72,3 +72,8 @@
 .social-links a:hover{
     color: #0c52a1;
 }
+@media screen and (max-width: 768px) {
+    .main{
+        justify-content: center;
+    }
+}
