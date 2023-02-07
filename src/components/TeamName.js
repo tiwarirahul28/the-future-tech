@@ -12,20 +12,20 @@ const TeamName = () => {
         <div class="main">
             <div class="profile-card">
                 <div class="img">
-                    <img src={SonalMam} alt="team-img"/>
-                </div>
-                <div class="caption">
-                    <h3>sonal Chavan</h3>
-                    <p>IT Coordinator</p>
-                </div>
-            </div>
-            <div class="profile-card">
-                <div class="img">
                     <img src="" alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>manju Suresh</h3>
                     <p>IT Coordinator</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src={SonalMam} alt="team-img"/>
+                </div>
+                <div class="caption">
+                    <h3>sonal Chavan</h3>
+                    <p>Vice IT Coordinator</p>
                 </div>
             </div>
             <div class="profile-card">
@@ -61,7 +61,7 @@ const TeamName = () => {
                 </div>
                 <div class="caption">
                     <h3>Chaitanya Kadam</h3>
-                    <p>event manager</p>
+                    <p>Admin</p>
                 </div>
             </div>
             <div class="profile-card">
