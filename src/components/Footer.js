@@ -32,7 +32,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/the_future_tech_23/">instagram</a>
                 </div>
             </div>
-            <h1 className="credit"> created by <a href="/">KES STUD</a> 2023</h1>
+            <h1 className="credit"> Created By <a href="/">KES STUD</a> 2023</h1>
         </div>
         </>
     )

@@ -1,7 +1,8 @@
 import React from 'react'
 import './TeamNameStyle.css'
 import Rahul from '../assets/images/team/rahul.jpeg'
-import SonalMam from '../assets/images/team/sonal-mam.jpeg'
+import SonalMam from '../assets/images/team/sonal-mam.jpg'
+import ManjuMan from '../assets/images/team/manju-mam.jpeg'
 import Abhay from '../assets/images/team/abhay.jpeg'
 import Mihir from '../assets/images/team/mihir.jpeg'
 import Chaitanya from '../assets/images/team/chaitanya.jpeg'
@@ -12,7 +13,7 @@ const TeamName = () => {
         <div class="main">
             <div class="profile-card">
                 <div class="img">
-                    <img src="" alt="team-img"/>
+                    <img src={ManjuMan} alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>manju Suresh</h3>
@@ -64,7 +65,7 @@ const TeamName = () => {
                     <p>Admin</p>
                 </div>
             </div>
-            <div class="profile-card">
+            {/* <div class="profile-card">
                 <div class="img">
                     <img src="" alt="team-img"/>
                 </div>
@@ -72,7 +73,7 @@ const TeamName = () => {
                     <h3>Arsalan Shaikh</h3>
                     <p>Marketing</p>
                 </div>
-            </div>
+            </div> */}
         </div>
         </section>
         </>
