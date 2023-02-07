@@ -29,10 +29,10 @@ const Footer = () => {
                 
                 <div className="box">
                     <h3>follow us</h3>
-                    <a href="/">instagram</a>
+                    <a href="https://www.instagram.com/the_future_tech_23/">instagram</a>
                 </div>
             </div>
-            <h1 className="credit"> created by <a href="/">Rahul Tiwari</a> 2021 </h1>
+            <h1 className="credit"> created by <a href="/">KES STUD</a> 2023</h1>
         </div>
         </>
     )
