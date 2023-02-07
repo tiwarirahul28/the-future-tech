@@ -24,15 +24,15 @@ const Footer = () => {
                 </div>
                 <div className="box">
                     <h3>Register Now</h3>
-                    <a href="#" >Register Link</a>
+                    <a href="/">Register Link</a>
                 </div>
                 
                 <div className="box">
                     <h3>follow us</h3>
-                    <a href="#">instagram</a>
+                    <a href="/">instagram</a>
                 </div>
             </div>
-            <h1 className="credit"> created by <a href="#">Rahul Tiwari</a> 2021 </h1>
+            <h1 className="credit"> created by <a href="/">Rahul Tiwari</a> 2021 </h1>
         </div>
         </>
     )
