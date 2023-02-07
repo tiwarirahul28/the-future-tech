@@ -8,7 +8,6 @@ import EthicalHacking from '../assets/images/events/Ethical-Hacking.jpg'
 import IOT from '../assets/images/events/IOT.jpg'
 import Kahoot from '../assets/images/events/kahoot.jpg'
 import Webdesigning from '../assets/images/events/Web-Designing.jpg'
-import PosterVideo from '../assets/images/video-home.mp4'
 
 const EventName = () => {
     return (
@@ -17,7 +16,7 @@ const EventName = () => {
         {/* <h1 class="heading">Events</h1> */}
         <div class="box-container">
             <div class="box">
-                <img src={Debug} alt="event-photo"/>
+                <img src={Debug} alt="event-img"/>
                 <div class="info">
                     <h3>Debug code</h3>
                     <span>rules</span>
@@ -26,7 +25,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={AndroidApplication} alt="event-photo"/>
+                <img src={AndroidApplication} alt="event-img"/>
                 <div class="info">
                     <h3>Android Application</h3>
                     <span>rules</span>
@@ -35,7 +34,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={IOT} alt="event-photo"/>
+                <img src={IOT} alt="event-img"/>
                 <div class="info">
                     <h3>IOT</h3>
                     <span>rules</span>
@@ -44,7 +43,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={BlindCoding} alt="event-photo"/>
+                <img src={BlindCoding} alt="event-img"/>
                 <div class="info">
                     <h3>blind coding</h3>
                     <span>rules</span>
@@ -53,7 +52,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={ai} alt="event-photo"/>
+                <img src={ai} alt="event-img"/>
                 <div class="info">
                     <h3>AI (artificial intelligence)</h3>
                     <span>rules</span>
@@ -62,7 +61,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={Kahoot} alt="event-photo"/>
+                <img src={Kahoot} alt="event-img"/>
                 <div class="info">
                     <h3>Kahoot IT</h3>
                     <span>rules</span>
@@ -71,7 +70,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={Webdesigning} alt="event-photo"/>
+                <img src={Webdesigning} alt="event-img"/>
                 <div class="info">
                     <h3>web designing</h3>
                     <span>rules</span>
@@ -80,7 +79,7 @@ const EventName = () => {
             </div>
 
             <div class="box">
-                <img src={EthicalHacking} alt="event-photo"/>
+                <img src={EthicalHacking} alt="event-img"/>
                 <div class="info">
                     <h3>Ethical Hacking</h3>
                     <span>rules</span>

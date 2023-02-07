@@ -12,7 +12,7 @@ const TeamName = () => {
         <div class="main">
             <div class="profile-card">
                 <div class="img">
-                    <img src={SonalMam} alt="team-photo"/>
+                    <img src={SonalMam} alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>sonal Chavan</h3>
@@ -21,7 +21,7 @@ const TeamName = () => {
             </div>
             <div class="profile-card">
                 <div class="img">
-                    <img src="" alt="team-photo"/>
+                    <img src="" alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>manju Suresh</h3>
@@ -30,7 +30,7 @@ const TeamName = () => {
             </div>
             <div class="profile-card">
                 <div class="img">
-                    <img src={Rahul} alt="team-photo"/>
+                    <img src={Rahul} alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>Rahul Tiwari</h3>
@@ -39,7 +39,7 @@ const TeamName = () => {
             </div>
             <div class="profile-card">
                 <div class="img">
-                    <img src={Abhay} alt="team-photo"/>
+                    <img src={Abhay} alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>Abhay Vishwakarma</h3>
@@ -48,7 +48,7 @@ const TeamName = () => {
             </div>
             <div class="profile-card">
                 <div class="img">
-                    <img src={Mihir} alt="team-photo"/>
+                    <img src={Mihir} alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>mihir salgaonkar</h3>
@@ -57,7 +57,7 @@ const TeamName = () => {
             </div>
             <div class="profile-card">
                 <div class="img">
-                    <img src={Chaitanya} alt="team-photo"/>
+                    <img src={Chaitanya} alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>Chaitanya Kadam</h3>
@@ -66,7 +66,7 @@ const TeamName = () => {
             </div>
             <div class="profile-card">
                 <div class="img">
-                    <img src="" alt="team-photo"/>
+                    <img src="" alt="team-img"/>
                 </div>
                 <div class="caption">
                     <h3>Arsalan Shaikh</h3>
