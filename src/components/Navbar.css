@@ -10,6 +10,7 @@
 }
 .header-bg{
     background-color: #00003fd2;
+    z-index: 9999;
 }
 .nav-menu{
     display: flex;
