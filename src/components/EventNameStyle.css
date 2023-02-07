@@ -69,3 +69,9 @@
     color:#ccc;
     padding: 1px 0;
 }
+
+@media screen and (max-width:768px){
+    .team .box-container .box{
+        margin: 0 0 30px;
+    }
+}
