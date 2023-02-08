@@ -3,7 +3,7 @@ import "./Navbar.css"
 import { Link } from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 // import Logo from '../assets/images/Logo-two.png'
-// import Logo from '../assets/images/logo.jpg'
+import Logo from '../assets/images/The-future-tech-blue.png'
 
 const Navbar = () => {
 
@@ -22,8 +22,8 @@ const Navbar = () => {
         <>
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/">
-                {/* <img src={Logo}/> */}
-                <h1>The Future Tech</h1>
+                <img src={Logo}/>
+                {/* <h1>The Future Tech</h1> */}
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
