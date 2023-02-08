@@ -24,12 +24,12 @@ const Footer = () => {
                 </div>
                 <div className="box">
                     <h3>Register Now</h3>
-                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8">Register Link</a>
+                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank">Register Link</a>
                 </div>
                 
                 <div className="box">
                     <h3>follow us</h3>
-                    <a href="https://www.instagram.com/the_future_tech_23/">instagram</a>
+                    <a href="https://www.instagram.com/the_future_tech_23/" target="_blank">instagram</a>
                 </div>
             </div>
             <h1 className="credit"> Created By <a href="/">KES STUD</a> 2023</h1>
