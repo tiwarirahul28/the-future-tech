@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div className="box">
                     <h3>Register Now</h3>
-                    <a href="/">Register Link</a>
+                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8">Register Link</a>
                 </div>
                 
                 <div className="box">

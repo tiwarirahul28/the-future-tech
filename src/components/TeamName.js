@@ -26,7 +26,7 @@ const TeamName = () => {
                 </div>
                 <div class="caption">
                     <h3>sonal Chavan</h3>
-                    <p>Vice IT Coordinator</p>
+                    <p>event advisor</p>
                 </div>
             </div>
             <div class="profile-card">
@@ -35,7 +35,7 @@ const TeamName = () => {
                 </div>
                 <div class="caption">
                     <h3>Rahul Tiwari</h3>
-                    <p>Front End Developer</p>
+                    <p>Tech Head</p>
                 </div>
             </div>
             <div class="profile-card">
@@ -62,7 +62,7 @@ const TeamName = () => {
                 </div>
                 <div class="caption">
                     <h3>Chaitanya Kadam</h3>
-                    <p>Admin</p>
+                    <p>volunteer Head</p>
                 </div>
             </div>
             {/* <div class="profile-card">
