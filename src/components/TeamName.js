@@ -26,7 +26,7 @@ const TeamName = () => {
                 </div>
                 <div class="caption">
                     <h3>sonal Chavan</h3>
-                    <p>event advisor</p>
+                    <p> advisor</p>
                 </div>
             </div>
             <div class="profile-card">
