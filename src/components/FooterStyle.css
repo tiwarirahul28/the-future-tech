@@ -1,5 +1,6 @@
 .footer{
     background-color: #f0f0f0;
+    padding-top: 50px;
 }
 
 .footer .box-container{
@@ -12,27 +13,47 @@
     margin-top: 20px;
     margin-left: 7%;
 }
-.footer .box-container .box h1{
-    font-size: 16px;
-    color: #00003f;
+.footer .box-container .box .footer-btn{
+    padding: 10px 30px;
+    margin: 26px 0;
 }
-.footer .box-container .box h3{
-    font-size: 14px;
+
+.footer .box-container .box h2{
+    font-size: 20px;
     color: #00003f;
     padding: 10px 0;
+    font-weight: 600;
+}
+.footer .box-container .box .footer-contact h3{
+    font-size: 16px;
+    color: #00003f;
+    padding: 10px 0;
+    font-weight: 400;
+}
+.footer .box-container .box .footer-contact a{
+    padding: 10px 0;
+    color: #e62429;
+}
+.footer .box-container .box .footer-contact a svg{
+    margin-right: 10px ;
 }
 
 .footer .box-container .box p{
-    font-size: 12px;
-    color: #e62429;
-    padding: 5px 0;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
 }
 
-.footer .box-container .box a{
-    font-size: 12px;
+.footer-link{
+    display: flex;
+    flex-direction: column;
+}
+.footer-insta{
+    margin: 10px 0;
+}
+.footer-link a, .footer-insta a{
+    padding: 10px 0;
     color: #e62429;
-    padding: 5px 0;
-    display: block;
 }
 
 .footer a:hover{
@@ -50,4 +71,9 @@
 
 .footer .credit a{
     color: #00003f;
+}
+@media screen and (max-width:768px) {
+    .footer{
+        padding-top: 20px;
+    }
 }
