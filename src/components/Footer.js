@@ -31,17 +31,17 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="box">
-                    <h2>quick links</h2>
+                    <h2>Pages</h2>
                     <div className='footer-link'>
-                        <a href="/">home</a>
+                        <a href="/">Home</a>
                         <a href="/events">Events</a>
-                        <a href="/teams">Teams</a>
+                        <a href="/teams">Team</a>
                         <a href="/about">About</a>
                     </div>
                 </div>
                 
                 <div className="box">
-                    <h2>follow us</h2>
+                    <h2>Follow Us</h2>
                     <div className='footer-insta'>
                         <a rel="noreferrer" href="https://www.instagram.com/the_future_tech_23/" target="_blank">instagram</a>
                     </div>

@@ -77,10 +77,14 @@
     .humburger{
         display: initial;
     }
+    .nav-menu li .header-btn{
+        color: #fff;
+    }
 }
 @media screen and (max-width:768px) {
     .header-btn{
         display: block;
+        color: #fff;
     }
     .header-mobile{
         display: none;
