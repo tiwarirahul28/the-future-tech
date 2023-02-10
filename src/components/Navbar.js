@@ -2,8 +2,7 @@ import React, {useState} from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
-// import Logo from '../assets/images/Logo-two.png'
-import Logo from '../assets/images/The-future-tech-blue.png'
+import Logo from '../assets/images/logo.png'
 
 const Navbar = () => {
 
@@ -21,9 +20,9 @@ const Navbar = () => {
     return (
         <>
         <div className={color ? "header header-bg" : "header"}>
-            <Link to="/">
-                <img src={Logo}/>
-                {/* <h1>The Future Tech</h1> */}
+            <Link to="/" className='logo'>
+                <img src={Logo} alt='logo'/>
+                <h1>The Future Tech</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
@@ -39,14 +38,17 @@ const Navbar = () => {
                     <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn">register</a>
+                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn header-btn">register</a>
                 </li>
+                
             </ul>
+            <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn header-mobile">register</a>
+
             <div className='humburger' onClick={handleClick}>
                 {click ? (
-                    <FaTimes size={20} style={{color: "#fff"}
+                    <FaTimes size={20} style={{color: "#000"}
                 }/>
-                ) : (<FaBars size={20} style={{color: "#fff"}
+                ) : (<FaBars size={20} style={{color: "#000"}
                 }/>)}
             </div>
         </div>

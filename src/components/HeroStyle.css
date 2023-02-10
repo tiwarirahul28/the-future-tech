@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(../assets/images/banner.avif) no-repeat;
+    background: #0000;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -16,6 +16,7 @@
 .home .image video{
     width: 100%;
 }
+
 video::-webkit-media-controls-panel { 
     display: none ! important; 
     opacity: 1 ! important;
@@ -23,17 +24,17 @@ video::-webkit-media-controls-panel {
 .home .content{
     flex:1 1 25rem;
     padding: 64px 0;
+    text-transform: capitalize;
 }
 
 .home .content h3{
     color: #e62429;
-    font-size: 35px;
-    /* padding-bottom: 1rem; */
+    font-size: 26px;
 }
 
 .home .content h1{
     color: #fff;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .home .content p{
