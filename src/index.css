@@ -29,9 +29,9 @@ body{
   background: #000;
   overflow-x: hidden;
 }
-h1, h4, p, a{
+/* h1, h4, p, a{
   color: #fff;
-}
+} */
 .btn{
   color: #fff;
   background: #e62429;
@@ -55,7 +55,7 @@ h1, h4, p, a{
 section{
   min-height: 100vh;
   padding: 0 7%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .heading{
   text-align: center;

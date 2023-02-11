@@ -9,7 +9,8 @@ const Team = () => {
         <>
             <Navbar/>
             <BannerImg
-                heading="Teams"
+                heading="The Future Tech"
+                text="Team"
             />
             <TeamName/>
             <Footer/>

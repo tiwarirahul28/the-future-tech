@@ -1,77 +1,49 @@
 import React from 'react'
 import './HomeSliderstyle.css'
-import Debug from '../assets/images/events/debug.jpg'
-import ai from '../assets/images/events/ai.jpg'
-import AndroidApplication from '../assets/images/events/Android-Application.jpg'
-import BlindCoding from '../assets/images/events/Blind-Coding.png'
-import EthicalHacking from '../assets/images/events/Ethical-Hacking.jpg'
-import IOT from '../assets/images/events/IOT.jpg'
-import Kahoot from '../assets/images/events/kahoot.jpg'
-import Webdesigning from '../assets/images/events/Web-Designing.jpg'
+import Debug from '../assets/images/events/debug.png'
+import AndroidApplication from '../assets/images/events/android.png'
+import BlindCoding from '../assets/images/events/blind.png'
 import PosterVideo from '../assets/images/video-home.mp4'
 const HomeSlider = () => {
     return (
         <>
-        <section className="alpine-slider">
-            <h1 className="heading">The Future Tech - <span> Events</span></h1>
-            <div className="slider">
-                <div className="slider__content">
-                    <div className="slider__item">
-                        <img className="slider__image" src={Debug} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Artificial intelligence</h2>
-                        </div>
-                    </div>
-                    
-                    <div className="slider__item">
-                        <img className="slider__image" src={ai} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Android Application</h2>
-                        </div>
-                    </div>
-
-                    <div className="slider__item">
-                        <img className="slider__image" src={AndroidApplication} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Blind Coding</h2>
-                        </div>
-                    </div>
-
-                    <div className="slider__item">
-                        <img className="slider__image" src={BlindCoding} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Debug code</h2>
-                        </div>
-                    </div>
-
-                    <div className="slider__item">
-                        <img className="slider__image" src={EthicalHacking} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Ethical Hacking</h2>
-                        </div>
-                    </div>
-
-                    <div className="slider__item">
-                        <img className="slider__image" src={IOT} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Internet of Things</h2>
-                        </div>
-                    </div>
-
-                    <div className="slider__item">
-                        <img className="slider__image" src={Kahoot} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Kahoot IT</h2>
-                        </div>
-                    </div>
-
-                    <div className="slider__item">
-                        <img className="slider__image" src={Webdesigning} alt="events"/>
-                        <div className="slider__info">
-                            <h2>Web Designing</h2>
-                        </div>
+        <section className="events-card">
+            <h1>The Future Tech</h1>
+            <span>Events</span>
+            <div className='cards'>
+                <div className='box'>
+                    <img src={Debug} alt=''/>
+                    <div className='box-info'>
+                        <h1>Debug Me</h1>
+                        <h3>Rules:</h3>
+                        <p>Number of participant: 1</p>
+                        <p>The participant have to debug the code we will be given in the following programing language </p>
+                        <p>Language: Javascript, C++, Java, Python</p>
                     </div>
                 </div>
+                <div className='box'>
+                    <img src={AndroidApplication} alt=''/>
+                    <div className='box-info'>
+                        <h1>Android Application</h1>
+                        <h3>Rules:</h3>
+                        <p>Participants can participate in solo or teams(4 members).</p>
+                        <p>Participants have make a Android application from scratch in our premises</p>
+                    </div>
+                </div>
+                <div className='box'>
+                    <img src={BlindCoding} alt=''/>
+                    <div className='box-info'>
+                        <h1>Blind coding</h1>
+                        <h3>Rules:</h3>
+                        <p>Number of participant: 1</p>
+                        <p>This event consists of two rounds</p>
+                        <p>Each participant has to write the code for the problem statement, with MONITOR OFF.</p>
+                        <p>Language: Javascript, C++, Java, Python</p>
+                    </div>
+                </div>
+            </div>
+            <div className='view-all'>
+                <a href='/events' className='btn'>Veiw All Events</a>
             </div>
         </section>
         <div class="event-banner">

@@ -9,8 +9,8 @@ const About = () => {
         <>
            <Navbar/>
            <BannerImg
-                heading="About"
-                text=""
+                heading="The Future Tech"
+                text="About"
             />
             <AboutUs/>
            <Footer/>
