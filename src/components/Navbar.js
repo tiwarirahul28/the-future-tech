@@ -19,6 +19,11 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor);
     return (
         <>
+        <div className='marq-tag'>
+            <marquee>
+                This is a sample scrolling text that has scrolls texts to left.
+            </marquee>
+        </div>
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/" className='logo'>
                 <img src={Logo} alt='logo'/>

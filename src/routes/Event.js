@@ -9,8 +9,8 @@ const Event = () => {
         <>
         <Navbar/>
         <BannerImg
-            heading="Events"
-            text=""
+            heading="The Future Tech"
+            text="Events"
         />
         <EventName/>
         <Footer/>
