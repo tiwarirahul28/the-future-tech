@@ -42,6 +42,15 @@ const TeamName = () => {
             </div>
             <div className="profile-card">
                 <div className="img">
+                    <img src={Arsalan} alt="team-img"/>
+                </div>
+                <div className="caption">
+                    <h3>Arsalan Shaikh</h3>
+                    <p>Marketing Head</p>
+                </div>
+            </div>
+            <div className="profile-card">
+                <div className="img">
                     <img src={Abhay} alt="team-img"/>
                 </div>
                 <div className="caption">
@@ -74,15 +83,6 @@ const TeamName = () => {
                 <div className="caption">
                     <h3>Abu Zohab Shaikh</h3>
                     <p>Desgniner Head</p>
-                </div>
-            </div>
-            <div className="profile-card">
-                <div className="img">
-                    <img src={Arsalan} alt="team-img"/>
-                </div>
-                <div className="caption">
-                    <h3>Arsalan Shaikh</h3>
-                    <p>Marketing Head</p>
                 </div>
             </div>
         </div>
