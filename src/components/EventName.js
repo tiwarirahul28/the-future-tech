@@ -104,9 +104,7 @@ const EventName = () => {
                     <div className='box-info'>
                         <h1>Counter strike</h1>
                         <h3>Rules:</h3>
-                        <p>Number of participant: 1</p>
-                        <p>The participant have to make a website in any programing language of the following</p>
-                        <p>Topics : E-Commerce, Web gallery, & Covide-19 Website</p>
+                        <p>Comming soon</p>
                     </div>
                 </div>
                 <div className='box'>
@@ -114,9 +112,7 @@ const EventName = () => {
                     <div className='box-info'>
                         <h1>treasure hunt</h1>
                         <h3>Rules:</h3>
-                        <p>Number of participant: 1</p>
-                        <p>The participant have to make a website in any programing language of the following</p>
-                        <p>Topics : E-Commerce, Web gallery, & Covide-19 Website</p>
+                        <p>Comming soon</p>
                     </div>
                 </div>
             </div>
