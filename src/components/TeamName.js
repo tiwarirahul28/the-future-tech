@@ -6,6 +6,8 @@ import ManjuMan from '../assets/images/team/manju-mam.jpeg'
 import Abhay from '../assets/images/team/abhay.jpeg'
 import Mihir from '../assets/images/team/mihir.jpeg'
 import Chaitanya from '../assets/images/team/chaitanya.jpeg'
+import Zohab from '../assets/images/team/zohab.jpeg';
+import Arsalan from '../assets/images/team/arsalan.jpeg';
 const TeamName = () => {
     return (
         <>
@@ -67,20 +69,20 @@ const TeamName = () => {
             </div>
             <div className="profile-card">
                 <div className="img">
-                    <img src="" alt="team-img"/>
+                    <img src={Zohab} alt="team-img"/>
                 </div>
                 <div className="caption">
-                    <h3>Abho Zohab Shaikh</h3>
-                    <p>Marketing</p>
+                    <h3>Abu Zohab Shaikh</h3>
+                    <p>Desgniner Head</p>
                 </div>
             </div>
             <div className="profile-card">
                 <div className="img">
-                    <img src="" alt="team-img"/>
+                    <img src={Arsalan} alt="team-img"/>
                 </div>
                 <div className="caption">
                     <h3>Arsalan Shaikh</h3>
-                    <p>Marketing</p>
+                    <p>Marketing Head</p>
                 </div>
             </div>
         </div>
