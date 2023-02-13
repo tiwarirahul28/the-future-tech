@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
         <div className='marq-tag'>
             <marquee>
-                This is a sample scrolling text that has scrolls texts to left.
+                Win  attractive cash prizes & certificates
             </marquee>
         </div>
         <div className={color ? "header header-bg" : "header"}>

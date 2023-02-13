@@ -26,10 +26,15 @@
     display: flex;
 }
 .about-col{
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
+    text-align: center;
     padding: 30px 20px;
 }
-  
+
+.about-col .heading{
+    text-align: center;
+}
+
 .about-col img{
     width: 100%;
 }
