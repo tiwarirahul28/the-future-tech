@@ -30,11 +30,13 @@ video::-webkit-media-controls-panel {
 .home .content h3{
     color: #e62429;
     font-size: 26px;
+    line-height: 30px;
 }
 
 .home .content h1{
     color: #fff;
     font-size: 38px;
+    line-height: 42px;
 }
 
 .home .content p{
