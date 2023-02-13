@@ -1,22 +1,28 @@
 import React from 'react';
 import './EventNameStyle.css'
-import Debug from '../assets/images/events/debug.png'
-import ai from '../assets/images/events/ai.png'
-import AndroidApplication from '../assets/images/events/android.png'
-import BlindCoding from '../assets/images/events/blind.png'
-import EthicalHacking from '../assets/images/events/hacking.png'
-import IOT from '../assets/images/events/iot.png'
-import Kahoot from '../assets/images/events/kahoot.png'
-import Webdesigning from '../assets/images/events/web.png'
-import Counter from '../assets/images/events/counter.jpg'
-import Treasure from '../assets/images/events/treasure.jpg'
-
+import EMdata from '../MEdata';
+import EventsCard from './EventsCard';
 const EventName = () => {
     return (
         <>
         <section className="events-card">
             <div className='cards'>
-                <div className='box'>
+            {EMdata.map((val, ind) =>{
+                    return(
+                        <EventsCard
+                            key={ind}
+                            imgsrc={val.imgsrc}
+                            name={val.name}
+                            rules={val.rules}
+                            rulesone={val.rulesone}
+                            rulestwo={val.rulestwo}
+                            rulesthree={val.rulesthree}
+                            rulesfour={val.rulesfour}
+                            rulesfive={val.rulesfive}
+                        />
+                    )
+                })}
+                {/* <div className='box'>
                     <img src={Debug} alt=''/>
                     <div className='box-info'>
                         <h1>Debug Me</h1>
@@ -122,7 +128,7 @@ const EventName = () => {
                             </li>
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
         </>
