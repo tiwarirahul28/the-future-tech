@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="box">
                     <img src={Logo} alt='logo'/>
                     <p>The Future Tech Is An Inter-Collegiate IT Event Organized By The Students Of Bachelor Of Science In Information Technology (B.Sc-I.T.) For The Purpose Of Providing A Platform For Students To Showcase Their Skills And Knowledge In Various Tech Related Competitions.</p>
-                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" className='btn footer-btn'>Register Link</a>
+                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" className='btn footer-btn'>Register</a>
                 </div>
                 <div className="box">
                     <h2>Contact us</h2>
