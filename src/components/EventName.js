@@ -104,7 +104,11 @@ const EventName = () => {
                     <div className='box-info'>
                         <h1>Counter strike</h1>
                         <h3>Rules:</h3>
-                        <p>Comming soon</p>
+                        <p>
+                            <li>
+                                The rules will be announced on the day of the event.
+                            </li>
+                        </p>
                     </div>
                 </div>
                 <div className='box'>
@@ -112,7 +116,11 @@ const EventName = () => {
                     <div className='box-info'>
                         <h1>treasure hunt</h1>
                         <h3>Rules:</h3>
-                        <p>Comming soon</p>
+                        <p> 
+                            <li>
+                                The rules will be announced on the day of the event.
+                            </li>
+                        </p>
                     </div>
                 </div>
             </div>

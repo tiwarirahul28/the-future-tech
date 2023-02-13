@@ -1,13 +1,13 @@
 import React from 'react'
 import './TeamNameStyle.css'
-import Rahul from '../assets/images/team/rahul.jpeg'
+import Rahul from '../assets/images/team/rahul.jpg'
 import SonalMam from '../assets/images/team/sonal-mam.jpg'
 import ManjuMan from '../assets/images/team/manju-mam.jpeg'
 import Abhay from '../assets/images/team/abhay.jpeg'
-import Mihir from '../assets/images/team/mihir.jpeg'
-import Chaitanya from '../assets/images/team/chaitanya.jpeg'
+// import Mihir from '../assets/images/team/mihir.jpeg'
+// import Chaitanya from '../assets/images/team/chaitanya.jpeg'
 import Zohab from '../assets/images/team/zohab.jpeg';
-import Arsalan from '../assets/images/team/arsalan.jpeg';
+import Arsalan from '../assets/images/team/arsalan.jpg';
 const TeamName = () => {
     return (
         <>
@@ -58,7 +58,7 @@ const TeamName = () => {
                     <p>event manager</p>
                 </div>
             </div>
-            <div className="profile-card">
+            {/* <div className="profile-card">
                 <div className="img">
                     <img src={Mihir} alt="team-img"/>
                 </div>
@@ -66,8 +66,8 @@ const TeamName = () => {
                     <h3>mihir salgaonkar</h3>
                     <p>event manager</p>
                 </div>
-            </div>
-            <div className="profile-card">
+            </div> */}
+            {/* <div className="profile-card">
                 <div className="img">
                     <img src={Chaitanya} alt="team-img"/>
                 </div>
@@ -75,7 +75,7 @@ const TeamName = () => {
                     <h3>Chaitanya Kadam</h3>
                     <p>volunteer Head</p>
                 </div>
-            </div>
+            </div> */}
             <div className="profile-card">
                 <div className="img">
                     <img src={Zohab} alt="team-img"/>
