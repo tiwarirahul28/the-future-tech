@@ -17,15 +17,15 @@ const Footer = () => {
                     <h2>Contact us</h2>
                     <div className='footer-contact'>
                         <h3>Rahul Tiwari | Tech Head</h3>
-                        <a href='/'>
+                        <a href='tel:+91 9324272772'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 9324272772
                         </a> 
                         <h3>Abhay Vishwakarma | Event Manager</h3>
-                        <a href='/'>
+                        <a href='tel:+91 9324272772'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 7738913369
                         </a> 
                         <h3>Mihir Salgaokar | Event Manager</h3>
-                        <a href='/'>
+                        <a href='tel:+91 9324272772'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 8779330699
                         </a> 
                     </div>

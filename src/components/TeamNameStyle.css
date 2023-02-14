@@ -95,11 +95,12 @@
 }
 .team-container .team-box img{
     width: 100%;
+    height: 240px;
     border-radius: 50%;
 }
 
 .team-container .team-box h1{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 22px;
     padding: 10px 0 5px ;
@@ -117,20 +118,32 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    color: #00003F;
 }
-
+#team .heading{
+    padding: 50px 0;
+}
 @media screen and (max-width: 768px) {
     #team .team-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
-    }
-    .team-container .team-box h1{
-        font-size: 18px;
+        padding-bottom: 40px;
+
     }
     .team-container .team-box h2{
         font-size: 14px;
     }
     .team-container .team-box a{
         font-size: 14px;
+    }
+    #team .heading{
+        padding: 0 0 40px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .team-container .team-box img{
+        width: 100%;
+        height: 140px;
+        border-radius: 50%;
     }
 }
