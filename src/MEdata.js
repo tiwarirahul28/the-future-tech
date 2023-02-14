@@ -77,8 +77,8 @@ const EMdata = [
         name:"Web Designing",
         rules:"1. The number of participants :01",
         rulesone:"2. Participants are required to build a website in any of the following programming languages:HTML/CSS/JAVASCRIPT",
-        rulestwo:"3. Topics : E-Commerce, Web Gallery, & Covide-19 Website.",
-        rulesthree:"4. It is the participant's responsibility to build and submit the website one day before the event.",
+        rulestwo:"3. Topics : E-Commerce, Web Gallery, & Covid-19 Website.",
+        rulesthree:"4. It is the participant's requested to build and submit the website one day prior the event.",
     },
     {
         imgsrc: Counter,
