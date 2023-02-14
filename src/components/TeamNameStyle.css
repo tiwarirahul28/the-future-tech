@@ -1,4 +1,4 @@
-#events{
+/* #events{
     background-color: #f0f0f0;
     padding-top: 50px;
 }
@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* align-items: center; */
 }
 .profile-card{
     position: relative;
@@ -77,5 +76,61 @@
 @media screen and (max-width: 768px) {
     .main{
         justify-content: center;
+    }
+} */
+
+#team{
+    background: #f0f0f0;
+    padding-top: 70px;
+}
+#team .team-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+}
+.team-container .team-box{
+    width: 100%;
+    text-align: center;
+}
+.team-container .team-box img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-container .team-box h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 0 5px ;
+    text-transform: uppercase;
+    color: #00003F;
+}
+.team-container .team-box h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #e62429;
+
+}
+.team-container .team-box a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #team .team-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .team-container .team-box h1{
+        font-size: 18px;
+    }
+    .team-container .team-box h2{
+        font-size: 14px;
+    }
+    .team-container .team-box a{
+        font-size: 14px;
     }
 }

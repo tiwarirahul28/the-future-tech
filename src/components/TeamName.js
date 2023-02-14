@@ -3,7 +3,7 @@ import './TeamNameStyle.css'
 import Rahul from '../assets/images/team/rahul.jpg'
 import SonalMam from '../assets/images/team/sonal-mam.jpg'
 import ManjuMan from '../assets/images/team/manju-mam.jpeg'
-import Abhay from '../assets/images/team/abhay.jpeg'
+// import Abhay from '../assets/images/team/abhay.jpeg'
 // import Mihir from '../assets/images/team/mihir.jpg'
 // import Chaitanya from '../assets/images/team/chaitanya.jpeg'
 import Zohab from '../assets/images/team/zohab.jpeg';
@@ -11,7 +11,7 @@ import Arsalan from '../assets/images/team/arsalan.jpg';
 const TeamName = () => {
     return (
         <>
-        <section id="events">
+        {/* <section id="events">
         <div className="main">
             <div className="profile-card">
                 <div className="img">
@@ -37,7 +37,7 @@ const TeamName = () => {
                 </div>
                 <div className="caption">
                     <h3>Rahul Tiwari</h3>
-                    <p>Tech Head</p>
+                    <p>Event Head</p>
                 </div>
             </div>
             <div className="profile-card">
@@ -46,46 +46,52 @@ const TeamName = () => {
                 </div>
                 <div className="caption">
                     <h3>Arsalan Shaikh</h3>
-                    <p>Marketing Head</p>
+                    <p>Event Manager</p>
                 </div>
             </div>
-            <div className="profile-card">
-                <div className="img">
-                    <img src={Abhay} alt="team-img"/>
-                </div>
-                <div className="caption">
-                    <h3>Abhay Vishwakarma</h3>
-                    <p>event manager</p>
-                </div>
-            </div>
-            {/* <div className="profile-card">
-                <div className="img">
-                    <img src={Mihir} alt="team-img"/>
-                </div>
-                <div className="caption">
-                    <h3>mihir salgaonkar</h3>
-                    <p>event manager</p>
-                </div>
-            </div> */}
-            {/* <div className="profile-card">
-                <div className="img">
-                    <img src={Chaitanya} alt="team-img"/>
-                </div>
-                <div className="caption">
-                    <h3>Chaitanya Kadam</h3>
-                    <p>volunteer Head</p>
-                </div>
-            </div> */}
             <div className="profile-card">
                 <div className="img">
                     <img src={Zohab} alt="team-img"/>
                 </div>
                 <div className="caption">
                     <h3>Abu Zohab Shaikh</h3>
-                    <p>Desgniner Head</p>
+                    <p>Event Manager</p>
                 </div>
             </div>
         </div>
+        </section> */}
+        <section id='team'>
+            {/* <h1 className='heading'>HOD of Events</h1> */}
+            <div className='team-container'>
+                <div className='team-box'>
+                    <img src={ManjuMan} alt=""/>
+                    <h1>manju Suresh</h1>
+                    <h2>IT Coordinator</h2>
+                </div>
+                <div className='team-box'>
+                    <img src={SonalMam} alt=""/>
+                    <h1>sonal chavan</h1>
+                    <h2>advisor</h2>
+                </div>
+                <div className='team-box'>
+                    <img src={Rahul} alt=""/>
+                    <h1>Rahul Tiwari</h1>
+                    <h2>Event Head</h2>
+                    <a href='/'>+91 9324272772</a>
+                </div>
+                <div className='team-box'>
+                    <img src={Arsalan} alt=""/>
+                    <h1>arsalan shaikh</h1>
+                    <h2>Event Manager</h2>
+                    <a href='/'>+91 9324272772</a>
+                </div>
+                <div className='team-box'>
+                    <img src={Zohab} alt=""/>
+                    <h1>abu zohab shaikh</h1>
+                    <h2>Event Manager</h2>
+                    <a href='/'>+91 9324272772</a>
+                </div>
+            </div>
         </section>
         </>
     )
