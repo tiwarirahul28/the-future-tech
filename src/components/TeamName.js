@@ -43,13 +43,13 @@ const TeamName = () => {
                 <div className='team-box'>
                     <img src={Mihir} alt=""/>
                     <h1>Mihir Salgaonkar</h1>
-                    <h2>HOD</h2>
+                    <h2>Android Application & Ethical HAcking(HOD)</h2>
                     <a href='tel+91 8779330699'>+91 8779330699</a>
                 </div>
                 <div className='team-box'>
                     <img src={Abhay} alt=""/>
                     <h1>Abhay Vishwakarma</h1>
-                    <h2>HOD</h2>
+                    <h2>AI & IOT(HOD)</h2>
                     <a href='tel+91 7738913369'>+91 7738913369</a>
                 </div>
             </div>
