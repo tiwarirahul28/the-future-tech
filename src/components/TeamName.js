@@ -1,6 +1,5 @@
 import React from 'react'
 import './TeamNameStyle.css'
-// import Rahul from '../assets/images/team/rahul.jpg'
 import SonalMam from '../assets/images/team/sonal-mam.jpg'
 import ManjuMan from '../assets/images/team/manju-mam.jpeg'
 import Abhay from '../assets/images/team/abhay.jpeg'
