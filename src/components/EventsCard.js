@@ -1,12 +1,13 @@
 import React from 'react'
 
-const EventsCard = ({name, imgsrc, rules, rulesone, rulestwo, rulesthree, rulesfour, rulesfive}) => {
+const EventsCard = ({name, imgsrc, entryfees, rules, rulesone, rulestwo, rulesthree, rulesfour, rulesfive}) => {
     return (
         <>
         <div className='box'>
             <img src={imgsrc} alt=''/>
             <div className='box-info'>
                 <h1>{name}</h1>
+                <h2>Entry Fees Rs: {entryfees}</h2>
                 <h3>Rules:</h3>
                 <p>
                     <li>{rules}</li>

@@ -13,6 +13,7 @@ const EMdata = [
     {
         imgsrc: Debug,
         name: "Debug me",
+        entryfees:"50",
         rules:"1. The number of participants :01", 
         rulesone:"2. No. of Rounds:02", 
         rulestwo:"3. Participants will be given code to debug.",
@@ -21,6 +22,7 @@ const EMdata = [
     {
         imgsrc: ai,
         name: "ARTIFICIAL INTELLIGENCE",
+        entryfees:"200",
         rules: "1. Students can participate SOLO or in TEAM(4 members).", 
         rulesone:"2. Only 1 member to register from each team in the given google form.",
         rulestwo:"3. No. of Rounds:02",
@@ -30,6 +32,7 @@ const EMdata = [
     {
         imgsrc: AndroidApplication,
         name: "ANDROID APPLICATION ",
+        entryfees:"200",
         rules: "1. Students can participate SOLO or in TEAM(4 members).", 
         rulesone:"2. In round 1, the participants has to make the presentation and present it to the judges.",
         rulestwo:"3. In round 2,the participants will present their implemented projects to the judges",
@@ -37,6 +40,7 @@ const EMdata = [
     {
         imgsrc: BlindCoding,
         name:"Blind Coding",
+        entryfees:"50",
         rules:"1. The number of participants :01",
         rulesone:"2. No. of Rounds:02",
         rulestwo:"3. For the problem statement, each participant must write code with the monitor off.",
@@ -47,6 +51,7 @@ const EMdata = [
     {
         imgsrc: EthicalHacking,
         name:"Ethical Hacking",
+        entryfees:"200",
         rules:"1. Students can participate SOLO or in TEAM(4 members).",
         rulesone:"2. No. of Rounds:02",
         rulestwo:"3. In round 1, will be Hacking of WiFi.",
@@ -57,6 +62,7 @@ const EMdata = [
     {
         imgsrc: IOT,
         name:"IOT",
+        entryfees:"200",
         rules: "1. Students can participate SOLO or in TEAM(4 members).", 
         rulesone:"2. Only 1 member to register from each team in the given google form.",
         rulestwo:"3. No. of Rounds:02",
@@ -65,6 +71,7 @@ const EMdata = [
     {
         imgsrc: Kahoot,
         name:"Kahoot IT",
+        entryfees:"50",
         rules:"1. Number of participant: 1 (Solo)",
         rulesone:"2. No. of Rounds:02",
         rulestwo:"3. Rules shall be disclosed on the day of event .",
@@ -75,6 +82,7 @@ const EMdata = [
     {
         imgsrc: Webdesigning,
         name:"Web Designing",
+        entryfees:"50",
         rules:"1. The number of participants :01",
         rulesone:"2. Participants are required to build a website in any of the following programming languages:HTML/CSS/JAVASCRIPT",
         rulestwo:"3. Topics : E-Commerce, Web Gallery, & Covid-19 Website.",
@@ -83,6 +91,7 @@ const EMdata = [
     {
         imgsrc: Counter,
         name:"COD",
+        entryfees:"200",
         rules:"1. The rules will be declosed on the day of the event.",
         // rulesone:"",
         // rulestwo:"",
@@ -93,6 +102,7 @@ const EMdata = [
     {
         imgsrc: Treasure,
         name:"E-Treasure Hunt",
+        entryfees:"200",
         rules:"1. The rules will be declosed on the day of the event.",
         // rulesone:"",
         // rulestwo:"",

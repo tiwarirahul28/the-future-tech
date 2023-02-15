@@ -41,6 +41,11 @@
     font-weight: 600;
     padding: 5px 0;
 }
+.cards .box .box-info h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #00003F;
+}
 .cards .box .box-info h3{
     font-size: 14px;
     color: #E62429;

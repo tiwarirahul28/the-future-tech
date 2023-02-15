@@ -13,6 +13,7 @@ const EventName = () => {
                             key={ind}
                             imgsrc={val.imgsrc}
                             name={val.name}
+                            entryfees={val.entryfees}
                             rules={val.rules}
                             rulesone={val.rulesone}
                             rulestwo={val.rulestwo}
