@@ -6,7 +6,7 @@ import Abhay from '../assets/images/team/abhay.jpeg'
 import Mihir from '../assets/images/team/mihir.jpg'
 import Zohab from '../assets/images/team/zohab.jpeg';
 import Arsalan from '../assets/images/team/arsalan.jpg';
-// import Adib from '../assets/images/team/adib.jpg';
+import Rahul from '../assets/images/team/rahul.jpg';
 const TeamName = () => {
     return (
         <>
@@ -46,12 +46,12 @@ const TeamName = () => {
                     <h2>Event Manager</h2>
                     <a href='tel:+91 9930863310'>+91 9930863310</a>
                 </div>
-                {/* <div className='team-box'>
+                <div className='team-box'>
                     <img src={Rahul} alt=""/>
                     <h1>Rahul Tiwari</h1>
                     <h2>Teach Head</h2>
                     <a href='tel:+91 9324272772'>+91 9324272772</a>
-                </div> */}
+                </div>
             </div>
                 
         </section>
