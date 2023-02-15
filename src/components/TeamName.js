@@ -97,37 +97,37 @@ const TeamName = () => {
                 <div className='team-box'>
                     <img src={Rahul} alt=""/>
                     <h1>Rahul Tiwari</h1>
-                    <h2>HOD Of Debugging</h2>
+                    <h2>Debugging (HOD)</h2>
                     <a href='tel:+91 9324272772'>+91 9324272772</a>
                 </div>
                 <div className='team-box'>
                     <img src={Arsalan} alt=""/>
                     <h1>arsalan shaikh</h1>
-                    <h2>HOD Of E-Treasure Hunt</h2>
+                    <h2>E-Treasure Hunt (HOD)</h2>
                     <a href='tel:+91 8291799787'>+91 8291799787</a>
                 </div>
                 <div className='team-box'>
                     <img src={Zohab} alt=""/>
                     <h1>abu zohab shaikh</h1>
-                    <h2>HOD Of Web Desigining & Blind Coding</h2>
+                    <h2>Web Desigining & Blind Coding (HOD)</h2>
                     <a href='tel:+91 9930863310'>+91 9930863310</a>
                 </div>
                 <div className='team-box'>
                     <img src={Abhay} alt=""/>
                     <h1>Abhay Vishwakarma</h1>
-                    <h2>HOD Of AI & IOT</h2>
+                    <h2>AI & IOT (HOD)</h2>
                     <a href='tel:+91 7738913369'>+91 7738913369</a>
                 </div>
                 <div className='team-box'>
                     <img src={Mihir} alt=""/>
                     <h1>Mihir Salgaonkar</h1>
-                    <h2>HOD Of Android Application & Ethical Hacking</h2>
+                    <h2>Android Application & Ethical Hacking (HOD)</h2>
                     <a href='tel+91 8779330699'>+91 8779330699</a>
                 </div>
                 <div className='team-box'>
                     <img src={Adib} alt=""/>
                     <h1>Adib Khan</h1>
-                    <h2>HOD Of Call Of Duty </h2>
+                    <h2>Call Of Duty (HOD)</h2>
                     <a href='tel+91 8104397990'>+91 8104397990</a>
                 </div>
             </div>

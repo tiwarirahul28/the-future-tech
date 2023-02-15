@@ -18,14 +18,14 @@ const EData = [
         rulesone:"2. Only 1 member to register from each team in the given google form.",
         rulestwo:"3. No. of Rounds:02",
         rulesthree:"4. In round 1, the participants has to make the presentation and present it to the judges.",
-        rulesfour: "5. In round 2 ,the participants will present their implemented projects to the judges"
+        rulesfour: "5. In round 2,the participants will present their implemented projects to the judges"
     },
     {
         imgsrc: AndroidApplication,
         name: "ANDROID APPLICATION ",
         rules: "1. Students can participate SOLO or in TEAM(4 members).", 
         rulesone:"2. In round 1, the participants has to make the presentation and present it to the judges.",
-        rulestwo:"3. In round 2 ,the participants will present their implemented projects to the judges",
+        rulestwo:"3. In round 2,the participants will present their implemented projects to the judges",
     },
 ]
 export default EData
