@@ -23,16 +23,10 @@ const TeamName = () => {
                     <h2>advisor</h2>
                 </div>
                 <div className='team-box'>
-                    <img src={Mihir} alt=""/>
-                    <h1>Mihir Salgaonkar</h1>
+                    <img src={Rahul} alt=""/>
+                    <h1>Rahul Tiwari</h1>
                     <h2>Event Head</h2>
-                    <a href='tel+91 8779330699'>+91 8779330699</a>
-                </div>
-                <div className='team-box'>
-                    <img src={Abhay} alt=""/>
-                    <h1>Abhay Vishwakarma</h1>
-                    <h2>Event Head</h2>
-                    <a href='tel+91 7738913369'>+91 7738913369</a>
+                    <a href='tel:+91 9324272772'>+91 9324272772</a>
                 </div>
                 <div className='team-box'>
                     <img src={Arsalan} alt=""/>
@@ -47,10 +41,16 @@ const TeamName = () => {
                     <a href='tel:+91 9930863310'>+91 9930863310</a>
                 </div>
                 <div className='team-box'>
-                    <img src={Rahul} alt=""/>
-                    <h1>Rahul Tiwari</h1>
-                    <h2>Teach Head</h2>
-                    <a href='tel:+91 9324272772'>+91 9324272772</a>
+                    <img src={Mihir} alt=""/>
+                    <h1>Mihir Salgaonkar</h1>
+                    <h2>HOD</h2>
+                    <a href='tel+91 8779330699'>+91 8779330699</a>
+                </div>
+                <div className='team-box'>
+                    <img src={Abhay} alt=""/>
+                    <h1>Abhay Vishwakarma</h1>
+                    <h2>HOD</h2>
+                    <a href='tel+91 7738913369'>+91 7738913369</a>
                 </div>
             </div>
                 
