@@ -20,14 +20,15 @@ const Footer = () => {
                         <a href='tel:+91 9324272772'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 9324272772
                         </a>  */}
-                        <h3>Abhay Vishwakarma | Event Head</h3>
-                        <a href='tel:+91 9324272772'>
-                            <BsTelephone size={20} style={{color: "#E62429"}}/>+91 7738913369
-                        </a> 
                         <h3>Mihir Salgaokar | Event Head</h3>
                         <a href='tel:+91 9324272772'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 8779330699
                         </a> 
+                        <h3>Abhay Vishwakarma | Event Head</h3>
+                        <a href='tel:+91 9324272772'>
+                            <BsTelephone size={20} style={{color: "#E62429"}}/>+91 7738913369
+                        </a> 
+                       
                     </div>
                 </div>
                 <div className="box">
