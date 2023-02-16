@@ -18,7 +18,7 @@ const EMdata = [
         rulesone:"2. No. of Rounds:02", 
         rulestwo:"3. Participants will be given code to debug.",
         rulesthree:"4. Programing Languages : Javascript, C++, Python.",
-        rulesfour:"Participants have to debug the code in a certain amount of time."
+        rulesfour:"5. Participants have to debug the code in a certain amount of time."
     },
     {
         imgsrc: ai,
