@@ -53,7 +53,6 @@ const TeamName = () => {
                     <a href='tel+91 7738913369'>+91 7738913369</a>
                 </div>
             </div>
-                
         </section>
         </>
     )

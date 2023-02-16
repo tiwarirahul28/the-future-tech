@@ -17,7 +17,8 @@ const EMdata = [
         rules:"1. The number of participants :01", 
         rulesone:"2. No. of Rounds:02", 
         rulestwo:"3. Participants will be given code to debug.",
-        rulesthree:"4. Programing Languages : Javascript, C++, Python."
+        rulesthree:"4. Programing Languages : Javascript, C++, Python.",
+            rulesfour:"Participants have to debug the code in a certain amount of time."
     },
     {
         imgsrc: ai,
@@ -90,7 +91,7 @@ const EMdata = [
     },
     {
         imgsrc: Counter,
-        name:"COD",
+        name:"COD (mobile)",
         entryfees:"200",
         rules:"1. The rules will be declosed on the day of the event.",
         // rulesone:"",
