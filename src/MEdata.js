@@ -18,7 +18,7 @@ const EMdata = [
         rulesone:"2. No. of Rounds:02", 
         rulestwo:"3. Participants will be given code to debug.",
         rulesthree:"4. Programing Languages : Javascript, C++, Python.",
-            rulesfour:"Participants have to debug the code in a certain amount of time."
+        rulesfour:"Participants have to debug the code in a certain amount of time."
     },
     {
         imgsrc: ai,
@@ -47,7 +47,7 @@ const EMdata = [
         rulestwo:"3. For the problem statement, each participant must write code with the monitor off.",
         rulesthree:"4. A higher priority will be given to participants whose code is executed.",
         rulesfour:"5. Code with the least number of errors will be given preference.",
-        rulesfive:"6. Programming Languages to be used: Javascript, C++, Python."
+        rulesfive:"6. Programming Languages to be used: Javascript, C++, Python. Participants have to complete the code in a certain amount of time."
     },
     {
         imgsrc: EthicalHacking,
