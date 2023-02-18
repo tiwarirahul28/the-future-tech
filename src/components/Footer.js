@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="box">
                     <h2>Follow Us</h2>
                     <div className='footer-insta'>
-                        <a rel="noreferrer" href="https://www.instagram.com/the_future_tech_23/" target="_blank">instagram</a>
+                        <a rel="noreferrer" href="https://www.instagram.com/the.future.tech1.0/" target="_blank">instagram</a>
                     </div>
                 </div>
             </div>
