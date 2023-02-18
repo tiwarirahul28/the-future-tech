@@ -7,7 +7,7 @@ const EData = [
         imgsrc: Debug,
         name: "Debug me",
         entryfees:"50",
-        rules:"1. The number of participants :01", 
+        rules:"1. The number of participants :01 (Solo)", 
         rulesone:"2. No. of Rounds:02", 
         rulestwo:"3. Participants will be given code to debug.",
         rulesthree:"4. Programing Languages : Javascript, C++, Python."
