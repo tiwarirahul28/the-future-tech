@@ -92,8 +92,9 @@ const EMdata = [
     {
         imgsrc: Counter,
         name:"COD (mobile)",
-        entryfees:"200",
+        entryfees:"50",
         rules:"1. The rules will be disclosed on the day of the event.",
+        rulesone:"The number of participants :01",
         // rulesone:"",
         // rulestwo:"",
         // rulesthree:"",
@@ -103,8 +104,9 @@ const EMdata = [
     {
         imgsrc: Treasure,
         name:"E-Treasure Hunt",
-        entryfees:"200",
+        entryfees:"50",
         rules:"1. The rules will be disclosed on the day of the event.",
+        rulesone:"The number of participants :01",
         // rulesone:"",
         // rulestwo:"",
         // rulesthree:"",
