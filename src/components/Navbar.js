@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
         <div className='marq-tag'>
             <marquee>
-                Win  attractive cash prizes & certificates
+            A cash prize and certificate will be awarded to the first place winner, while a certificate will be awarded to all the participants
             </marquee>
         </div>
         <div className={color ? "header header-bg" : "header"}>
