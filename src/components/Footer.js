@@ -16,15 +16,23 @@ const Footer = () => {
                 <div className="box">
                     <h2>Contact us</h2>
                     <div className='footer-contact'>
-                        <h3>Rahul Tiwari | Event Head</h3>
+                        <h3>Mihir Salgaonkar</h3>
+                        <a href='tel:+91 8779330699'>
+                            <BsTelephone size={20} style={{color: "#E62429"}}/>+91 8779330699
+                        </a>
+                        <h3>Abhay Vishwakarma</h3>
+                        <a href='tel:+91 7738913369'>
+                            <BsTelephone size={20} style={{color: "#E62429"}}/>+91 7738913369
+                        </a>
+                        <h3>Rahul Tiwari</h3>
                         <a href='tel:+91 9324272772'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 9324272772
                         </a> 
-                        <h3>Arsalan shaikh | Event Manager</h3>
+                        <h3>Arsalan shaikh</h3>
                         <a href='tel:+91 8291799787'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 8291799787
                         </a> 
-                        <h3>Abu Zohab Shaikh | Event Manager</h3>
+                        <h3>Abu Zohab Shaikh </h3>
                         <a href='tel:+91 9930863310'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 9930863310
                         </a> 
