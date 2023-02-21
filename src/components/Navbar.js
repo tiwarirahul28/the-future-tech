@@ -45,7 +45,6 @@ const Navbar = () => {
                 <li>
                     <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn header-btn">register</a>
                 </li>
-                
             </ul>
             <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn header-mobile">register</a>
 

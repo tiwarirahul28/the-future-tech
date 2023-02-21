@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className='footer-link'>
                         <a href="/">Home</a>
                         <a href="/events">Events</a>
-                        <a href="/teams">Team</a>
+                        {/* <a href="/teams">Team</a> */}
                         <a href="/about">About</a>
                     </div>
                 </div>
