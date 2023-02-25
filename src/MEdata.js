@@ -107,7 +107,7 @@ const EMdata = [
         name:"E-Treasure Hunt",
         entryfees:"50",
         rules:"1. The rules will be disclosed on the day of the event.",
-        rulesone:"2. The number of participants :01 (Solo)",
+        rulesone:"2. The number of participants :02 (DUO)",
         // rulesone:"",
         // rulestwo:"",
         // rulesthree:"",
