@@ -104,7 +104,7 @@ const EMdata = [
     },
     {
         imgsrc: Treasure,
-        name:"E-Treasure Hunt",
+        name:"Treasure Hunt",
         entryfees:"100",
         rules:"1. The rules will be disclosed on the day of the event.",
         rulesone:"2. The number of participants :02 (DUO)",
