@@ -19,11 +19,6 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor);
     return (
         <>
-        <div className='marq-tag'>
-            <marquee>
-            A cash prize and certificate will be awarded to the first place winner, while a certificate will be awarded to all the participants
-            </marquee>
-        </div>
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/" className='logo'>
                 <img src={Logo} alt='logo'/>
