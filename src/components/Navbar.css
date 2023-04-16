@@ -96,9 +96,9 @@
     }
 }
 @media screen and (max-width:768px) {
-    .header{
+    /* .header{
         top: 3%;
-    }
+    } */
     .header-btn{
         display: block;
         color: #fff;

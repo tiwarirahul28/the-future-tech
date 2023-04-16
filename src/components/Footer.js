@@ -24,10 +24,6 @@ const Footer = () => {
                         <a href='tel:+91 7738913369'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 7738913369
                         </a>
-                        <h3>Rahul Tiwari</h3>
-                        <a href='tel:+91 9324272772'>
-                            <BsTelephone size={20} style={{color: "#E62429"}}/>+91 9324272772
-                        </a> 
                         <h3>Arsalan shaikh</h3>
                         <a href='tel:+91 8291799787'>
                             <BsTelephone size={20} style={{color: "#E62429"}}/>+91 8291799787
@@ -44,7 +40,7 @@ const Footer = () => {
                     <div className='footer-link'>
                         <a href="/">Home</a>
                         <a href="/events">Events</a>
-                        {/* <a href="/teams">Team</a> */}
+                        <a href="/gallery">Gallery</a>
                         <a href="/about">About</a>
                     </div>
                 </div>
