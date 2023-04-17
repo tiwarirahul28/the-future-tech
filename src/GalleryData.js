@@ -6,7 +6,7 @@ import ImgThree from './assets/gallery/image-three.jpg'
 import ImgFour from './assets/gallery/image-four.jpg'
 import ImgFive from './assets/gallery/image-five.jpg'
 import ImgSix from './assets/gallery/image-six.jpg'
-import ImgSeven from './assets/gallery/image.seven.jpg'
+// import ImgSeven from './assets/gallery/image.seven.jpg'
 import ImgEight from './assets/gallery/image.eight.jpg'
 import ImgNine from './assets/gallery/image-nine.jpg'
 import ImgTen from './assets/gallery/image-ten.jpg'
@@ -34,9 +34,9 @@ const GalleryData = () => {
         {
           img: ImgSix
         },
-        {
-          img: ImgSeven
-        },
+        // {
+        //   img: ImgSeven
+        // },
         {
           img: ImgEight
         },
