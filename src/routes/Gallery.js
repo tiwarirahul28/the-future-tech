@@ -1,6 +1,5 @@
 import React from 'react'
 import BannerImg from '../components/BannerImg'
-import FestGallery from '../components/FestGallery'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import GalleryData from '../GalleryData'

@@ -1,26 +1,61 @@
 import React from 'react'
 import FestGallery from './components/FestGallery'
+import ImgOne from './assets/gallery/image-one.jpg'
+import ImgTwo from './assets/gallery/image-two.jpg'
+import ImgThree from './assets/gallery/image-three.jpg'
+import ImgFour from './assets/gallery/image-four.jpg'
+import ImgFive from './assets/gallery/image-five.jpg'
+import ImgSix from './assets/gallery/image-six.jpg'
+import ImgSeven from './assets/gallery/image.seven.jpg'
+import ImgEight from './assets/gallery/image.eight.jpg'
+import ImgNine from './assets/gallery/image-nine.jpg'
+import ImgTen from './assets/gallery/image-ten.jpg'
+import ImgEleven from './assets/gallery/image-eleven.jpg'
+import ImgTwelve from './assets/gallery/image-twelve.jpg'
+import ImgThirteen from './assets/gallery/image-thirteen.jpg'
 
 const GalleryData = () => {
     const galleryImages = [
         {
-          img: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+          img: ImgOne
         },
         {
-          img: "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          img: ImgTwo
         },
         {
-          img: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          img: ImgThree
         },
         {
-          img: "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          img: ImgFour
         },
         {
-          img: "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          img: ImgFive
         },
         {
-          img: "https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
+          img: ImgSix
+        },
+        {
+          img: ImgSeven
+        },
+        {
+          img: ImgEight
+        },
+        {
+          img: ImgNine
+        },
+        {
+          img: ImgTen
+        },
+        {
+          img: ImgEleven
+        },
+        {
+          img: ImgTwelve
+        },
+        {
+          img: ImgThirteen
+        },
+
     ]
     return (
         <>
