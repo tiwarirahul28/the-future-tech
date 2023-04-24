@@ -7,7 +7,7 @@ const EventsCard = ({name, imgsrc, entryfees, rules, rulesone, rulestwo, rulesth
             <img src={imgsrc} alt=''/>
             <div className='box-info'>
                 <h1>{name}</h1>
-                <h2>Entry Fees Rs: {entryfees}</h2>
+                {/* <h2>Entry Fees Rs: {entryfees}</h2> */}
                 <h3>Rules:</h3>
                 <p>
                     <li>{rules}</li>

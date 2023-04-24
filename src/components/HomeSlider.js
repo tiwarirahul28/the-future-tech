@@ -19,7 +19,7 @@ const HomeSlider = () => {
                             key={ind}
                             imgsrc={val.imgsrc}
                             name={val.name}
-                            entryfees={val.entryfees}
+                            // entryfees={val.entryfees}
                             rules={val.rules}
                             rulesone={val.rulesone}
                             rulestwo={val.rulestwo}
