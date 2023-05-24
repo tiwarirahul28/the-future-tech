@@ -26,7 +26,20 @@ video::-webkit-media-controls-panel {
     padding: 64px 0;
     text-transform: capitalize;
 }
-
+.home .content .eventdate-box{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    gap: 4em;
+    align-items: center;
+    background: #fff;
+    padding: 2em;
+    background: #e5e5e51d;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+.eventdate-box h2{
+    color: #fff;
+}
 .home .content h3{
     color: #e62429;
     font-size: 26px;
@@ -43,4 +56,11 @@ video::-webkit-media-controls-panel {
     color:#aaa;
     font-size: 16px;
     padding: 16px 0;
+}
+@media screen and (max-width: 768px) {
+    .home .content .eventdate-box{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        gap: 1em;
+    }
 }

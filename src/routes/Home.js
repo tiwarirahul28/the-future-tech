@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import HeroImg from '../components/HeroImg'
 import HomeSlider from '../components/HomeSlider'
 import Navbar from '../components/Navbar'
+import EventSchedule from '../components/Schedule/EventSchedule'
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar/>
         <HeroImg/>
         <HomeSlider/>
+        <EventSchedule/>
         <Footer/>
         </>
     )

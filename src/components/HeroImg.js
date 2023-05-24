@@ -10,7 +10,15 @@ const HeroImg = () => {
                 <h3>amazing Tech</h3>
                 <h1>welcome The Future Tech</h1>
                 <p>The Future Tech 1.0 is an inter-collegiate IT event organized by the students of Bachelor of Science in Information Technology (B.Sc-I.T.) for the purpose of providing a platform for students to showcase their skills and knowledge in various tech related competitions.</p>
-                <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn">register</a>
+                <div className='eventdate-box'>
+                    <div>
+                        <h2>December 27, 2023 </h2>
+                        <p>Swami Vivekananda Rd, Khar, Ram Krishna Nagar, Khar West, Mumbai, Maharashtra 400052</p>
+                    </div>
+                    <div>
+                        <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn">register</a>
+                    </div>
+                </div>
             </div>
             <div className='image'>
             <video controls="false" autoplay="autoplay" loop muted src={BannerVideo}/>

@@ -9,7 +9,7 @@ const About = () => {
         <>
            <Navbar/>
            <BannerImg
-                heading="The Future Tech 1.0"
+                heading="The Future Tech"
                 text="About"
             />
             <AboutUs/>

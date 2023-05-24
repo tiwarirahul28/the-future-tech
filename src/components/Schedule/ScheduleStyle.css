@@ -1,0 +1,60 @@
+.schedule-container{
+    width: 100%;
+    height: 100%;
+}
+.schedule-container .schedule-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+    align-items: center;
+    margin: 2em 0;
+    padding: 1.5em;
+    background-color: #00003F;
+    border-radius: 10px;
+    color: #fff;
+}
+.schedule-box .left-box{
+    padding: 1.5em;
+    background: #E62429;
+    border-radius: 10px;
+}
+.schedule-box .left-box h5{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.schedule-box .left-box p{
+    font-size: 1.3em;
+}
+.schedule-box .middle-box p{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.schedule-box .right-box h6{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px){
+    .schedule-container .schedule-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .schedule-box .left-box{
+        padding: 1em;
+        background: #E62429;
+        border-radius: 10px;
+    }
+    .schedule-box .left-box h5{
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    .schedule-box .left-box p{
+        font-size: 1em;
+    }
+    .schedule-box .middle-box p{
+        font-size: 1.5em;
+    }
+    .schedule-box .right-box h6{
+        font-size: 1em;
+        font-weight: 400;
+    }
+}

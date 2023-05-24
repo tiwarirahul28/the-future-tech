@@ -1,0 +1,57 @@
+.events-card{
+    background-color: #fff;
+    width: 100vw;
+}
+.events-card .event-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 3em;
+}
+.events-card .event-box .left-card p{
+    font-size: 1.4em;
+    font-weight: 500;
+    line-height: 55px;
+}
+.events-card .event-box .left-card h4{
+    font-size: 2.4em;
+    font-weight: 500;
+    line-height: 45px;
+    color: #00003F;
+}
+.right-card p{
+    font-size: 1em;
+    line-height: 22px;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+.events-card .event-video{
+    width: 100%;
+    border-radius: 10px;
+}
+.events-card .event-video img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+    .events-card .event-box{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1em 0;
+        gap: 1em;
+    }
+    .events-card .event-box .left-card p{
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .events-card .event-box .left-card h4{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    .events-card .event-video img{
+        height: auto;
+    }
+}

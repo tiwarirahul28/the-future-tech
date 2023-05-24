@@ -8,6 +8,7 @@ const Gallery = () => {
   return (
     <>
     <Navbar/>
+    
     <BannerImg
         heading="The Future Tech 1.0"
         text="Gallery"
