@@ -3,7 +3,7 @@ import BannerImg from '../components/BannerImg'
 import EventName from '../components/EventName'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import EventScheduleList from '../components/Schedule/EventScheduleList'
+// import EventScheduleList from '../components/Schedule/EventScheduleList'
 
 const Event = () => {
     return (
@@ -14,7 +14,7 @@ const Event = () => {
             text="Events"
         />
         <EventName/>
-        <EventScheduleList/>
+        {/* <EventScheduleList/> */}
         <Footer/>
         </>
     )
