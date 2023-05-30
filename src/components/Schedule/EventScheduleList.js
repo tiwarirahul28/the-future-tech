@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 import ScheduleCard from './ScheduleCard'
-import ScheduleData from './ScheduleData'
-import './ScheduleStyle.css'
+import ScheduleDataList from './ScheduleDataList';
+import './ScheduleStyle.css' 
 
-const EventSchedule = () => {
+const EventScheduleList = () => {
   return (
     <>
-        <section className="events-card">
+        <section className="events-card" id='ScheduleDataList'>
             <h1>Schedule List</h1>
             <span>Events Schedule</span>
             <div className='schedule-container'>
-                {ScheduleData.map((val, ind) => {
+                {ScheduleDataList.map((val, ind) => {
                     return(
                         <ScheduleCard
                             key={ind}
@@ -24,11 +24,11 @@ const EventSchedule = () => {
                 })}
             </div>
             <div className='view-all'>
-                <a href='/events#ScheduleDataList' className='btn'>SEE ALL SCHEDULE</a>
+                {/* <a href='/events' className='btn'>SEE ALL SCHEDULE</a> */}
             </div>
         </section>
     </>
   )
 }
 
-export default EventSchedule
+export default EventScheduleList

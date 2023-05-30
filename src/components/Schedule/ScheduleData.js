@@ -21,4 +21,6 @@ const ScheduleData = [
         PersonNo: "+91 987654323"
     },
 ]
+
 export default ScheduleData
+
