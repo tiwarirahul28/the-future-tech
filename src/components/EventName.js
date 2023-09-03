@@ -1,6 +1,6 @@
 import React from 'react';
 import './EventNameStyle.css'
-import EMdata from '../MEdata';
+import EMdata from '../Data/MEdata';
 import EventsCard from './EventsCard';
 const EventName = () => {
     return (

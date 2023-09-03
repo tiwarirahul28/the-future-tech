@@ -1,13 +1,13 @@
-import Debug from './assets/images/events/debug.png'
-import ai from './assets/images/events/ai.png'
-import AndroidApplication from './assets/images/events/android.png'
-import BlindCoding from './assets/images/events/blind.png'
-import EthicalHacking from './assets/images/events/hacking.png'
-import IOT from './assets/images/events/iot.png'
-import Kahoot from './assets/images/events/kahoot.png'
-import Webdesigning from './assets/images/events/web.png'
-import Counter from './assets/images/events/counter.jpg'
-import Treasure from './assets/images/events/treasure.jpg'
+import Debug from '../assets/images/events/debug.png'
+import ai from '../assets/images/events/ai.png'
+import AndroidApplication from '../assets/images/events/android.png'
+import BlindCoding from '../assets/images/events/blind.png'
+import EthicalHacking from '../assets/images/events/hacking.png'
+import IOT from '../assets/images/events/iot.png'
+import Kahoot from '../assets/images/events/kahoot.png'
+import Webdesigning from '../assets/images/events/web.png'
+import Counter from '../assets/images/events/counter.jpg'
+import Treasure from '../assets/images/events/treasure.jpg'
 
 const EMdata = [
     {
@@ -76,9 +76,7 @@ const EMdata = [
         rules:"1. Number of participant: 1 (Solo)",
         rulesone:"2. No. of Rounds:02",
         rulestwo:"3. Rules shall be disclosed on the day of event .",
-        // rulesthree:"",
-        // rulesfour:"",
-        // rulesfive:""
+        
     },
     {
         imgsrc: Webdesigning,
@@ -96,11 +94,6 @@ const EMdata = [
         entryfees:"50",
         rules:"1. The rules will be disclosed on the day of the event.",
         rulesone:"2. The number of participants :01 (Solo)",
-        // rulesone:"",
-        // rulestwo:"",
-        // rulesthree:"",
-        // rulesfour:"",
-        // rulesfive:""
     },
     {
         imgsrc: Treasure,
@@ -108,11 +101,6 @@ const EMdata = [
         entryfees:"100",
         rules:"1. The rules will be disclosed on the day of the event.",
         rulesone:"2. The number of participants :02 (DUO)",
-        // rulesone:"",
-        // rulestwo:"",
-        // rulesthree:"",
-        // rulesfour:"",
-        // rulesfive:""
     },
 ]
 
