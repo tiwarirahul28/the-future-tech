@@ -15,9 +15,9 @@ const EData = [
     },
     {
         imgsrc: ai,
-        name: "ARTIFICIAL INTELLIGENCE",
+        name: "Artificial Intelligence",
         entryfees:"200",
-        slug: "artificial-intellihence",
+        slug: "artificial-intelligence",
         rules: "1. Students can participate SOLO or in TEAM(4 members).", 
         rulesone:"2. Only 1 member to register from each team in the given google form.",
         rulestwo:"3. No. of Rounds:02",

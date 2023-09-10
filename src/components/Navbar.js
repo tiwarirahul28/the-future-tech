@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/" className='logo'>
                 <img src={Logo} alt='logo'/>
-                <h1>The Future Tech</h1>
+                {/* <h1>The Future Tech</h1> */}
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>

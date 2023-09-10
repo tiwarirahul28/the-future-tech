@@ -5,6 +5,7 @@ import About from '../components/AboutUs/AboutUs'
 import Futuretech1 from '../routes/Futuretech1';
 import Register from "../routes/Register";
 import EventsTemplate from "../components/EventsTemplate/EventsTemplate";
+import NotFound from "../components/NotFound/NotFound";
 
 const Routes = [
     {
@@ -37,7 +38,7 @@ const Routes = [
     },
     {
         path: "*",
-        element:  <div>404 Not Found</div>,
+        element:  <NotFound/>,
     },
 ]
 export default Routes;

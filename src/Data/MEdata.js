@@ -14,7 +14,7 @@ const EMdata = [
         imgsrc: Debug,
         name: "Debug me",
         entryfees:"50",
-        slug: "debug",
+        slug: "debug-me",
         rules:"1. The number of participants :01 (Solo)", 
         rulesone:"2. No. of Rounds:02", 
         rulestwo:"3. Participants will be given code to debug.",

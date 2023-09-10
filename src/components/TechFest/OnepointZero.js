@@ -18,7 +18,7 @@ const OnepointZero = () => {
           </div>
        </div>
        <div className='event-video'>
-        <img src={ImgNine}/>
+        <img src={ImgNine} alt='imgnine'/>
        </div>
     </section>
     </>
