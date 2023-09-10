@@ -1,4 +1,4 @@
-.marq-tag{
+/* .marq-tag{
     width: 100%;
     height: auto;
     background-color: #E62429;
@@ -10,7 +10,7 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: -5px;
-}
+} */
 .header{
     display: flex;
     justify-content: space-between;

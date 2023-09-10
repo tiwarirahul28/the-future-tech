@@ -13,6 +13,7 @@ const EventName = () => {
                             key={ind}
                             imgsrc={val.imgsrc}
                             name={val.name}
+                            slug={`/events/${val?.slug}`}
                             entryfees={val.entryfees}
                             rules={val.rules}
                             rulesone={val.rulesone}

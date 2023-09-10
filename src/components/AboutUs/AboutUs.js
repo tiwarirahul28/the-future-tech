@@ -1,10 +1,15 @@
 import React from 'react'
 import './AboutStyle.css'
-import AboutUsImg from '../assets/images/aboutus.png'
+import AboutUsImg from '../../assets/images/aboutus.png'
+import BannerImg from '../BannerImg'
 
 const AboutUs = () => {
     return (
         <>
+        <BannerImg
+            heading="The Future Tech"
+            text="About"
+        />
         <section class="about">
             <div class="row">
                 <div class="about-col">

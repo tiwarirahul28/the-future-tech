@@ -1,6 +1,6 @@
 import React from 'react';
 import './FooterStyle.css'
-import Logo from '../assets/images/logo.png'
+import Logo from '../../assets/images/logo.png'
 // import {BsTelephone} from 'react-icons/bs'
 import {TiMessages} from 'react-icons/ti'
 

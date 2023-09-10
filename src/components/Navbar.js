@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { Link } from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Logo from '../assets/images/logo.png'
+import PageButton from './PageButton/PageButton';
 
 const Navbar = () => {
 
@@ -41,7 +42,9 @@ const Navbar = () => {
                     <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn header-btn">register</a>
+                    <PageButton
+                        ButtonText="Register"
+                    />
                 </li>
             </ul>
             <a rel="noreferrer" href="https://forms.gle/TvvUDAobVyMZaxmB8" target="_blank" class="btn header-mobile">register</a>

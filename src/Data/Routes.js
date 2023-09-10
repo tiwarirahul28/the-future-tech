@@ -1,8 +1,10 @@
 import Event from "../routes/Event";
 import Gallery from "../routes/Gallery";
 import Home from "../routes/Home";
-import About from '../routes/About'
+import About from '../components/AboutUs/AboutUs'
 import Futuretech1 from '../routes/Futuretech1';
+import Register from "../routes/Register";
+import EventsTemplate from "../components/EventsTemplate/EventsTemplate";
 
 const Routes = [
     {
@@ -12,6 +14,10 @@ const Routes = [
     {
         path: "/events",
         element: <Event/>,
+    },
+    {
+        path: "/events/:slug",
+        element: <EventsTemplate/>,
     },
     {
         path: "/gallery",
@@ -24,6 +30,10 @@ const Routes = [
     {
         path: "/futuretech1O",
         element: <Futuretech1/>,
+    },
+    {
+        path: "/register",
+        element: <Register/>,
     },
     {
         path: "*",

@@ -1,9 +1,11 @@
 import React from 'react'
+// import { Link } from 'react-router-dom'
 
-const EventsCard = ({name, imgsrc, entryfees, rules, rulesone, rulestwo, rulesthree, rulesfour, rulesfive}) => {
+const EventsCard = ({name, imgsrc, entryfees, slug, rules, rulesone, rulestwo, rulesthree, rulesfour, rulesfive}) => {
     return (
         <>
         <div className='box'>
+            <a href={slug}>
             <img src={imgsrc} alt=''/>
             <div className='box-info'>
                 <h1>{name}</h1>
@@ -28,6 +30,7 @@ const EventsCard = ({name, imgsrc, entryfees, rules, rulesone, rulestwo, rulesth
                     <li>{rulesfive}</li>
                 </p>
             </div>
+            </a>
         </div>
         </>
     )

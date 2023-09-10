@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomeSliderstyle.css'
 import EventsCard from './EventsCard'
-import EData from '../EData'
+import EData from '../Data/EData'
 // import PosterVideo from '../assets/images/video-home.mp4'
 const HomeSlider = () => {
     return (
@@ -17,6 +17,7 @@ const HomeSlider = () => {
                             imgsrc={val.imgsrc}
                             name={val.name}
                             // entryfees={val.entryfees}
+                            slug={`/events/${val?.slug}`}
                             rules={val.rules}
                             rulesone={val.rulesone}
                             rulestwo={val.rulestwo}
