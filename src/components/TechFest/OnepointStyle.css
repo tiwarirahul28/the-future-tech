@@ -1,6 +1,7 @@
 .events-card{
     background-color: #fff;
     width: 100vw;
+    padding: 50px 7%;
 }
 .events-card .event-box{
     display: grid;
@@ -19,7 +20,7 @@
     font-size: 2.4em;
     font-weight: 500;
     line-height: 45px;
-    color: #00003F;
+    color: #e62429;
 }
 .right-card p{
     font-size: 1em;
@@ -33,7 +34,6 @@
 }
 .events-card .event-video img{
     width: 100%;
-    height: 70vh;
     border-radius: 10px;
 }
 @media screen and (max-width: 768px) {

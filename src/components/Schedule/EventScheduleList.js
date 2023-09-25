@@ -7,8 +7,8 @@ const EventScheduleList = () => {
   return (
     <>
         <section className="events-card" id='ScheduleDataList'>
-            <h1>Schedule List</h1>
-            <span>Events Schedule</span>
+            <h1>The Future Tech 1.0</h1>
+            <span>Day 1</span>
             <div className='schedule-container'>
                 {ScheduleDataList.map((val, ind) => {
                     return(

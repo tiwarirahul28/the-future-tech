@@ -5,7 +5,7 @@ import data from '../../Data/EData'
 import NotFound from '../NotFound/NotFound'
 
 const EventsTemplate = () => {
-  const{ slug } = useParams();
+  const { slug } = useParams();
   const eventData = data.filter((val) => val.slug === slug);
   return ( 
     <div className='eventtemplate--section'>

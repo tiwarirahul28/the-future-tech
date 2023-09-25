@@ -6,6 +6,7 @@ import Futuretech1 from '../routes/Futuretech1';
 import Register from "../routes/Register";
 import EventsTemplate from "../components/EventsTemplate/EventsTemplate";
 import NotFound from "../components/NotFound/NotFound";
+import Schedule from "../routes/Schedule";
 
 const Routes = [
     {
@@ -19,6 +20,10 @@ const Routes = [
     {
         path: "/events/:slug",
         element: <EventsTemplate/>,
+    },
+    {
+        path: "/eventschedule",
+        element: <Schedule/>,
     },
     {
         path: "/gallery",

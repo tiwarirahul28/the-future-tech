@@ -24,7 +24,7 @@ const EventSchedule = () => {
                 })}
             </div>
             <div className='view-all'>
-                <a href='/events#ScheduleDataList' className='btn'>SEE ALL SCHEDULE</a>
+                <a href='/eventschedule' className='btn'>SEE ALL SCHEDULE</a>
             </div>
         </section>
     </>
